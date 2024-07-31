@@ -1,0 +1,27 @@
+server:
+  port: 8379
+  tomcat:
+    uri-encoding: UTF-8
+
+spring:
+  application:
+    name: digital-cat
+  profiles:
+    active: dev
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+  main:
+    allow-bean-definition-overriding: true
+
+mybatis-plus:
+  global-config:
+    db-config:
+      field-strategy: not_null
+  configuration:
+    map-underscore-to-camel-case: true
+

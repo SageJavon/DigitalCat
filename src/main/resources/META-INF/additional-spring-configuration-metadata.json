@@ -1,0 +1,14 @@
+{
+  "properties": [
+    {
+      "name": "checkLogicSequential",
+      "type": "java.lang.String",
+      "description": "Description for checkLogicSequential."
+    },
+    {
+      "name": "spring.datasource.password.hikari.idle-timeout",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.password.hikari.idle-timeout."
+    }
+  ]
+}
